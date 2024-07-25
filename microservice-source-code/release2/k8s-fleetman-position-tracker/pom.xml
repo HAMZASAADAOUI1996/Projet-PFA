@@ -17,6 +17,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
+                <sonar.java.binaries>target/classes</sonar.java.binaries>
+    <sonar.projectKey>positionsimulator</sonar.projectKey>
+    <sonar.projectName>projet-kube</sonar.projectName>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>123456789</sonar.password>
 	</properties>
 	<dependencies>
 		<dependency>
